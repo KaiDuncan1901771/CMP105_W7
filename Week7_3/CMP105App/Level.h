@@ -5,6 +5,7 @@
 #include <string>
 #include <iostream>
 #include "Player.h"
+#include "Bullet.h"
 
 
 
@@ -27,4 +28,5 @@ private:
 	Input* input;
 
 	Player player;
+	Bullet bullet;
 };
